@@ -2,11 +2,13 @@
 
 Página de apresentação da JPES Distribuidora, que vende bicicletas e peças de bike a partir de um galpão no CIVIT I, em Serra - ES. A página atende dois públicos, quem tem loja ou oficina e quem compra para si, e leva o pedido pronto para o WhatsApp da empresa. Feita em HTML, CSS e JavaScript, sem dependências nem etapa de compilação.
 
+Site no ar: https://projeto-de-extensao-e-inovacao-inte-six.vercel.app
+
 ## Abrir
 
-Abra `index.html` com dois cliques. Fotos, vídeo e fontes ficam em `assets/`, então a página funciona sem internet.
+O site está publicado em https://projeto-de-extensao-e-inovacao-inte-six.vercel.app.
 
-Com Node.js instalado, rode `npm run dev` e abra http://127.0.0.1:4178 (a porta muda com a variável `PORT`).
+Para ver sem internet, abra `index.html` com dois cliques. Fotos, vídeo e fontes ficam em `assets/`.
 
 ## Testes
 
@@ -17,14 +19,9 @@ Com Node.js instalado, rode `npm run dev` e abra http://127.0.0.1:4178 (a porta 
 
 ## Publicar
 
-`npm run build` copia para `dist/` só a página, os estilos, os scripts e os assets. A Vercel usa `vercel.json` para publicar essa pasta. Documentação, testes e arquivos de configuração não vão para o site.
+O site está publicado na Vercel, em https://projeto-de-extensao-e-inovacao-inte-six.vercel.app. `npm run build` copia para `dist/` só a página, os estilos, os scripts e os assets, e a Vercel usa `vercel.json` para publicar essa pasta. Documentação, testes e arquivos de configuração não vão para o site.
 
-Depois de publicar, acrescente no `<head>` do `index.html` o endereço definitivo, para a prévia aparecer certa no WhatsApp:
-
-```html
-<meta property="og:url" content="https://ENDERECO-DO-SITE/">
-<meta property="og:image" content="https://ENDERECO-DO-SITE/assets/og-image.jpg">
-```
+O `<head>` do `index.html` já traz esse endereço em `og:url` e `og:image`, para a prévia aparecer com foto quando o link é compartilhado no WhatsApp.
 
 ## Configurar (site.config.js)
 
