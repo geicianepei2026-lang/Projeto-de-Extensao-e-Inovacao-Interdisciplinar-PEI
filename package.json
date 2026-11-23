@@ -1,0 +1,12 @@
+{
+  "name": "jpes-distribuidora-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page da JPES Distribuidora, bicicletas e peças de bike no CIVIT I, Serra - ES, sem dependências.",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test \"testes/*.test.mjs\""
+  }
+}
